@@ -1,222 +1,156 @@
 {
-  "classes": [
+  "about": [
     {
-      "className": "الصف الأول"
-    },
-    {
-      "className": "الصف الثاني"
-    },
-    {
-      "className": "الصف الثالث"
-    },
-    {
-      "className": "الصف الرابع"
-    },
-    {
-      "className": "الصف الخامس"
-    },
-    {
-      "className": "الصف السادس"
-    },
-    {
-      "className": "الصف السابع"
-    },
-    {
-      "className": "الصف الثامن"
-    },
-    {
-      "className": "الصف التاسع"
-    },
-    {
-      "className": "الصف العاشر العلمي"
-    },
-    {
-      "className": "الصف العاشر الأدبي"
-    },
-    {
-      "className": "الصف الحادي عشر العلمي"
-    },
-    {
-      "className": "الصف الحادي عشر الأدبي"
-    },
-    {
-      "className": "الصف البكالوريا علمي"
-    },
-    {
-      "className": "الصف البكالوريا أدبي"
-    }
-  ],
-  "students": [
-    {
-      "id": "1",
+      "id": "0",
       "firstName": "Audai",
-      "lastName": "Sam",
-      "fatherName": "Sami",
-      "motherName": "Samya",
-      "image": "",
-      "birthDate": "1/5/2500",
-      "eMail": "audai123@yahoo.com",
-      "phoneNumber": "0999999212",
-      "password": "1010",
-      "address": "Syria - Aleppo",
-      "nationatNumber": "444-9999-2010",
-      "studentClass": "الصف الثامن"
+      "lastName":"Alsharani",
+      "image": "images/uthappizza.png",
+      "email":"audaisam5@gmail.com",
+      "phone":"+963 931 652 715",     
+      "description": "I am a highly organized person, hardworking ambitious, I like teamwork and I am looking for a real opportunity in a reputable organization.I have experience in agile software development and lean development in addition to mastering some engineering practices to build quality in software.",      
+      "webSite": [
+        {
+          "name": "facebook",
+          "link": ""          
+        },
+        {
+          "name": "github",
+          "link": "https://github.com/SamAudai?tab=repositories"          
+        },
+        {
+          "name": "linkedin",
+          "link": "https://linkedin.com/in/audai-alsh-arani-100738211"          
+        }      
+      ]
+    }  
+  ],
+  "education": [
+    {
+      "id": "0",
+      "name": "Bachelor in Information Technology Engineering",
+      "university": "Syrian Virtual University",
+      "date": "2014 / 2019",      
+      "specialize": "Software Engineering and Application Development"
+    },
+    {
+      "id": "1",
+      "name": "Diploma in Electronic Science",
+      "university": "Technical Institute of Applied Industries",
+      "date": "2004 / 2006",      
+      "specialize": "Industrial Electronics"
+    }
+  ],
+  "skill": [
+    {
+      "id": "0",
+      "name": "Peter Pan",
+      "image": "images/alberto.png",
+      "designation": "Chief Epicurious Officer",
+      "featured": false,
+      "abbr": "CEO",
+      "description": ""
+    },
+    {
+      "id": "1",
+      "name": "Dhanasekaran Witherspoon",
+      "image": "images/alberto.png",
+      "designation": "Chief Food Officer",
+      "featured": false,
+      "abbr": "CFO",
+      "description": ""
     },
     {
       "id": "2",
-      "firstName": "Samer",
-      "lastName": "Ahmad",
-      "fatherName": "Salem",
-      "motherName": "Salma",
-      "image": "",
-      "birthDate": "1/54/2022",
-      "eMail": "sam@email.com",
-      "phoneNumber": "2005050560650",
-      "password": "2020",
-      "address": "Syria- Homs",
-      "nationatNumber": "189189-511-5161",
-      "studentClass": "الصف الثامن"
-    },
-    {
-      "id": "7JulEwG",
-      "firstName": "q",
-      "lastName": "s",
-      "fatherName": "s",
-      "motherName": "s",
-      "image": "",
-      "birthDate": "ss",
-      "eMail": "s",
-      "phoneNumber": "ss",
-      "password": "s",
-      "address": "s",
-      "nationatNumber": "s",
-      "studentClass": "الصف الثاني"
-    }
-  ],
-  "teachers": [
-    {
-      "id": "1",
-      "fullName": "Ahmad Saeed",
-      "photocard": "",
-      "birthDate": "2/12/1998",
-      "e_mail": "ahmad@yahoo.com",
-      "image": "",
-      "password": "@1010",
-      "address": "Syria- Homs",
-      "nationatNumber": "205559010",
-      "phoneNumber": "09999999999"
-    }
-  ],
-  "subjects": [
-    {
-      "id": "1",
-      "name": "لغة إنكليزية8",
-      "degrees": {
-        "oral": 0,
-        "homework": 0,
-        "activeties": 0,
-        "practice": 0
-      },
-      "exam": {
-        "value": 0
-      },
-      "subject_Teacher": {
-        "id": "1",
-        "fullName": "Ahmad Saeed",
-        "photocard": "",
-        "birthDate": "2/12/1998",
-        "e_mail": "ahmad@yahoo.com",
-        "image": "",
-        "password": "@1010",
-        "address": "Syria- Homs",
-        "nationatNumber": "205559010",
-        "phoneNumber": "09999999999"
-      },
-      "subject_Class": {
-        "className": "الصف الثامن"
-      }
-    },
-    {
-      "id": "2",
-      "name": "لغة عربية 8",
-      "degrees": {
-        "oral": 0,
-        "homework": 0,
-        "activeties": 0,
-        "practice": 0
-      },
-      "exam": {
-        "value": 0
-      },
-      "subject_Teacher": {
-        "id": "1",
-        "fullName": "Ahmad Saeed",
-        "photocard": "",
-        "birthDate": "2/12/1998",
-        "e_mail": "ahmad@yahoo.com",
-        "image": "",
-        "password": "@1010",
-        "address": "Syria- Homs",
-        "nationatNumber": "205559010",
-        "phoneNumber": "09999999999"
-      },
-      "subject_Class": {
-        "className": "الصف الثامن"
-      }
+      "name": "Agumbe Tang",
+      "image": "images/alberto.png",
+      "designation": "Chief Taste Officer",
+      "featured": false,
+      "abbr": "CTO",
+      "description": ""
     },
     {
       "id": "3",
-      "name": "8تربية دينية",
-      "degrees": {
-        "oral": 0,
-        "homework": 0,
-        "activeties": 0,
-        "practice": 0
-      },
-      "exam": {
-        "value": 0
-      },
-      "subject_Teacher": {
-        "id": "1",
-        "fullName": "Ahmad Saeed",
-        "photocard": "",
-        "birthDate": "2/12/1998",
-        "e_mail": "ahmad@yahoo.com",
-        "image": "",
-        "password": "@1010",
-        "address": "Syria- Homs",
-        "nationatNumber": "205559010",
-        "phoneNumber": "09999999999"
-      },
-      "subject_Class": {
-        "className": "الصف الثامن"
-      }
+      "name": "Alberto Somayya",
+      "image": "images/alberto.png",
+      "designation": "Executive Chef",
+      "featured": true,
+      "abbr": "EC",
+      "description": ""
     }
   ],
-  "degree": {
-    "oral": 0,
-    "homework": 0,
-    "activeties": 0,
-    "practice": 0
-  },
-  "exam": {
-    "value": 0
-  },
-  "student_Subject": [
+  "experience": [
+    {
+      "id": "",
+      "firstname": "audai",
+      "lastname": "sam",
+      "telnum": "096532042212",
+      "email": "audai@yahoo.com",
+      "agree": true,
+      "contacttype": "Email",
+      "message": "That is great Restaurant !!!!!!!"      
+    }
+  ],
+  "course": [
+    {
+      "id": "0",
+      "courseName": "Software Product Management",
+      "courseDate": "Jan 8/ 2022",
+      "courseDonor": "University of ALBERTA",
+      "certificateLink": "https://coursera.org/verify/specialization/VTZLZ3JY4S32"           
+    },
     {
       "id": "1",
-      "studentID": "2",
-      "subjectID": "1"
+      "courseName": "Full Stack Web Development with Angular",
+      "courseDate": "Aug 12/ 2021",
+      "courseDonor": "The Hong Kong University of Science and Technology",
+      "certificateLink": "https://coursera.org/verify/specialization/8M493MCTHLHA"           
     },
     {
       "id": "2",
-      "studentID": "2",
-      "subjectID": "2"
+      "courseName": "IBM Data Analyst / Introduction to Data Analytics",
+      "courseDate": "Jul 29/ 2021",
+      "courseDonor": "IBM",
+      "certificateLink": "https://coursera.org/verif%20y/3LDST9987E3D"           
     },
     {
       "id": "3",
-      "studentID": "1",
-      "subjectID": "1"
+      "courseName": "Software Development Lifecycle",
+      "courseDate": "Jul 14/ 2021",
+      "courseDonor": "University of Minnesota",
+      "certificateLink": "https://coursera.org/verify/specialization/QAVT4N7UXXGM"           
+    },
+    {
+      "id": "4",
+      "courseName": "Python for Everybody",
+      "courseDate": "Jun 11/ 2021",
+      "courseDonor": "University of Michigan",
+      "certificateLink": "https://coursera.org/verify/specialization/RNG23DTEWGHY"           
+    },
+    {
+      "id": "5",
+      "courseName": "Google IT Support Professional Certificate  / Technical Support Fundamentals",
+      "courseDate": "Feb 9/ 2023",
+      "courseDonor": "Google",
+      "certificateLink": "https://coursera.org/verify/X3WNVSNYMYE9"           
+    },
+    {
+      "id": "6",
+      "courseName": "Data Structures and Algorithms / Algorithmic Toolbox",
+      "courseDate": "Jan 29/ 2022",
+      "courseDonor": "University of California San Diego",
+      "certificateLink": "https://coursera.org/verif%20y/PR4YRTNX5LG8"           
+    }
+  ],
+  "intresting": [
+    {
+      "id": "",
+      "firstname": "audai",
+      "lastname": "sam",
+      "telnum": "096532042212",
+      "email": "audai@yahoo.com",
+      "agree": true,
+      "contacttype": "Email",
+      "message": "That is great Restaurant !!!!!!!"      
     }
   ]
 }

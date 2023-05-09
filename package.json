@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "predeploy": "ng build --prod",
-    "deploy": "ng deploy fsms-ngrx --base-href=/fsms-cham-angular-app/"
+    "deploy": "ng deploy fsms-ngrx --base-hrecham-angular-app/"
   },
   "private": true,
   "dependencies": {

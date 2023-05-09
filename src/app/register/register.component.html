@@ -1,0 +1,121 @@
+<div *ngIf="message" class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Success!</strong> You register in school successful.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<form ngForm="registerForm" (ngSubmit)="onSubmit()">
+  <mat-toolbar fxLayout="row">New Registration</mat-toolbar>
+  <table class="full-width" cellspacing="0" fxLayout="row">
+    <tr>
+
+      <td>
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>First name</mat-label>
+          <input matInput [(ngModel)]="student_service._student.firstName" name="First Name" placeholder="First Name"
+            type="text">
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Last name</mat-label>
+          <input matInput [(ngModel)]="student_service._student.lastName" name="last Name" placeholder="Last Name"
+            type="text">
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
+  <table class="full-width" cellspacing="0" fxLayout="row">
+    <tr>
+      <td>
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Father name</mat-label>
+          <input matInput [(ngModel)]="student_service._student.fatherName" name="Father Name" placeholder="Father Name"
+            type="text">
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Mother name</mat-label>
+          <input matInput [(ngModel)]="student_service._student.motherName" placeholder="Mother Name" name="Mother Name"
+            type="text">
+        </mat-form-field>
+      </td>
+
+    </tr>
+  </table>
+  <table class="full-width" cellspacing="0" fxLayout="row">
+    <tr>
+      <td><mat-form-field class="full-width" appearance="outline">
+          <mat-label>Address</mat-label>
+          <input matInput [(ngModel)]="student_service._student.address" name="address" placeholder="Ex. San Francisco">
+        </mat-form-field>
+      </td>
+
+      <td>
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Telephone</mat-label>
+
+          <input matInput [(ngModel)]="student_service._student.phoneNumber" name="telephone" type="tel"
+            placeholder="555-555-1234">
+
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
+  <table class="full-width" cellspacing="0" fxLayout="row">
+    <tr>
+      <td>
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput [(ngModel)]="student_service._student.password" name="password" placeholder="Password"
+            type="password">
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>E-Mail</mat-label>
+          <input matInput [(ngModel)]="student_service._student.eMail" name="email" placeholder="Ex. pat@example.com"
+            type="email">
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
+  <table class="full-width" cellspacing="0" fxLayout="row">
+    <tr>
+
+      <td>
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>Birthdate</mat-label>
+          <input matInput [(ngModel)]="student_service._student.birthDate" placeholder="E 1/1/2023" name="Birthdate"
+            type="datetime">
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
+
+  <table class="full-width" cellspacing="0" fxLayout="row">
+    <tr>
+
+      <td>
+        <mat-form-field class="full-width" appearance="outline">
+          <mat-label>National Number</mat-label>
+
+          <input matInput [(ngModel)]="student_service._student.nationatNumber" type="tel" name="National Number"
+            placeholder="555-555-1234">
+
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field appearance="outline">
+          <mat-label>Select Class</mat-label>
+          <mat-select [(ngModel)]="student_service._student.studentClass" name="classes">
+            <mat-option *ngFor="let item of class_student" [value]="item.className">
+              {{item.className}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </td>
+    </tr>
+  </table>
+  <button type="submit" mat-flat-button color="primary">Submit</button>
+</form>

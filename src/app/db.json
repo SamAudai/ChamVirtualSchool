@@ -1,0 +1,214 @@
+{
+  "classes": [
+    {
+      "className": "الصف الأول"
+    },
+    {
+      "className": "الصف الثاني"
+    },
+    {
+      "className": "الصف الثالث"
+    },
+    {
+      "className": "الصف الرابع"
+    },
+    {
+      "className": "الصف الخامس"
+    },
+    {
+      "className": "الصف السادس"
+    },
+    {
+      "className": "الصف السابع"
+    },
+    {
+      "className": "الصف الثامن"
+    },
+    {
+      "className": "الصف التاسع"
+    },
+    {
+      "className": "الصف العاشر العلمي"
+    },
+    {
+      "className": "الصف العاشر الأدبي"
+    },
+    {
+      "className": "الصف الحادي عشر العلمي"
+    },
+    {
+      "className": "الصف الحادي عشر الأدبي"
+    },
+    {
+      "className": "الصف البكالوريا علمي"
+    },
+    {
+      "className": "الصف البكالوريا أدبي"
+    }
+  ],
+
+  "students": [
+    {
+      "id": "1",
+      "firstName": "Audai",
+      "lastName": "Sam",
+      "fatherName": "Sami",
+      "motherName": "Samya",
+      "image": "",
+      "birthDate": "1/5/2500",
+      "eMail": "audai123@yahoo.com",
+      "phoneNumber": "0999999212",
+      "password": "1010",
+      "address": "Syria - Aleppo",
+      "nationatNumber": "444-9999-2010",
+      "studentClass": "الصف الثامن"
+      
+    },
+    {
+      "id": "2",
+      "firstName": "Samer",
+      "lastName": "Ahmad",
+      "fatherName": "Salem",
+      "motherName": "Salma",
+      "image": "",
+      "birthDate": "1/54/2022",
+      "eMail": "sam@email.com",
+      "phoneNumber": "2005050560650",
+      "password": "2020",
+      "address": "Syria- Homs",
+      "nationatNumber": "189189-511-5161",
+      "studentClass": "الصف الثامن"      
+    }
+  ],
+  
+  "teachers": [
+    {
+      "id": "1",
+      "fullName": "Ahmad Saeed",
+      "photocard": "",
+      "birthDate": "2/12/1998",
+      "e_mail": "ahmad@yahoo.com",
+      "image": "",
+      "password": "@1010",
+      "address": "Syria- Homs",
+      "nationatNumber": "205559010",
+      "phoneNumber": "09999999999"
+    }
+  ],
+
+  "subjects": [
+    {
+      "id": "1",
+      "name": "لغة إنكليزية8",
+      "degrees": {
+        "oral": 0,
+        "homework": 0,
+        "activeties": 0,
+        "practice": 0
+      },
+      "exam": {
+        "value": 0
+      },
+      "subject_Teacher": {
+        "id": "1",
+        "fullName": "Ahmad Saeed",
+        "photocard": "",
+        "birthDate": "2/12/1998",
+        "e_mail": "ahmad@yahoo.com",
+        "image": "",
+        "password": "@1010",
+        "address": "Syria- Homs",
+        "nationatNumber": "205559010",
+        "phoneNumber": "09999999999"
+      },
+      "subject_Class": {
+        "className": "الصف الثامن"
+      }
+    },
+    {
+      "id": "2",
+      "name": "لغة عربية 8",
+      "degrees": {
+        "oral": 0,
+        "homework": 0,
+        "activeties": 0,
+        "practice": 0
+      },
+      "exam": {
+        "value": 0
+      },
+      "subject_Teacher": {
+        "id": "1",
+        "fullName": "Ahmad Saeed",
+        "photocard": "",
+        "birthDate": "2/12/1998",
+        "e_mail": "ahmad@yahoo.com",
+        "image": "",
+        "password": "@1010",
+        "address": "Syria- Homs",
+        "nationatNumber": "205559010",
+        "phoneNumber": "09999999999"
+      },
+      "subject_Class": {
+        "className": "الصف الثامن"
+      }
+    },
+    {
+      "id": "3",
+      "name": "8تربية دينية",
+      "degrees": {
+        "oral": 0,
+        "homework": 0,
+        "activeties": 0,
+        "practice": 0
+      },
+      "exam": {
+        "value": 0
+      },
+      "subject_Teacher": {
+        "id": "1",
+        "fullName": "Ahmad Saeed",
+        "photocard": "",
+        "birthDate": "2/12/1998",
+        "e_mail": "ahmad@yahoo.com",
+        "image": "",
+        "password": "@1010",
+        "address": "Syria- Homs",
+        "nationatNumber": "205559010",
+        "phoneNumber": "09999999999"
+      },
+      "subject_Class": {
+        "className": "الصف الثامن"
+      }
+    }
+  ],
+
+  "degree": {
+    "oral": 0,
+    "homework": 0,
+    "activeties": 0,
+    "practice": 0
+  },
+
+  "exam": {
+    "value": 0
+  },
+
+  "student_Subject": [
+    {
+      "id": "1",
+      "studentID": "2",
+      "subjectID": "1"
+    },
+    {
+      "id": "2",
+      "studentID": "2",
+      "subjectID": "2"
+    },
+    {
+      "id": "3",
+      "studentID": "1",
+      "subjectID": "1"
+    }
+  ]
+}

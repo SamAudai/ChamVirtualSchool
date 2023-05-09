@@ -1,0 +1,30 @@
+<table class="container table table-bordered table-hover">
+    <thead>
+        
+        <th>Full Name</th>                      
+        <th>Photo</th>               
+        <th>BirthDate</th>
+        <th>E_mail</th>
+        <th>Phone Number</th>
+        <th>Password</th>
+        <th>Address</th>
+        <th>National Number</th>       
+    
+        
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of teachers">
+            
+            <td>{{item.fullName}}</td>                                
+            <td>{{item.image}}</td>                     
+            <td>{{item.birthDate}}</td>
+            <td>{{item.e_mail}}</td>
+            <td>{{item.phoneNumber}}</td>
+            <td>{{item.password}}</td>
+            <td>{{item.address}}</td>
+            <td>{{item.nationatNumber}}</td>
+            
+        </tr>
+    </tbody>
+</table>
+

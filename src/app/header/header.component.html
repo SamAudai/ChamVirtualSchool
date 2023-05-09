@@ -1,0 +1,28 @@
+<mat-grid-list cols="3">
+  <mat-toolbar color="primary" layout="row" layout-align.xs="start center" layout-align.sm="start center" layout-align.lt-sm="center center" >
+    <img src="/assets/images/logo-01.jpg" height=35 width=40>
+    <a mat-button routerLink='/home' routerLinkActive="active"><span class="fa fa-home fa-md"></span> Home</a>
+    <a mat-button routerLink='/about' routerLinkActive="active"><span class="fa fa-info fa-md"></span> About</a>
+    <a mat-button routerLink='/contact' routerLinkActive="active"><span class="fa fa-address-card fa-md"></span>
+      Contact</a>
+    <span class="flex-spacer"></span>
+    <a mat-button routerLink='/register' routerLinkActive="active"><span class="fa fa-user-plus fa-md"></span>
+      Register</a>
+    <a mat-button (click)="openLoginForm()"><span class="fa fa-sign-in fa-md"></span> Login</a>
+  </mat-toolbar>
+  
+  <div class="container" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column"
+  layout-align.xs="start center" layout-align.sm="start center" layout-align.lt-sm="center center"
+    fxLayoutGap="10px">
+    <div>
+      <h1>Cham Virtual School</h1>
+      <p>Al-Cham Virtual School is a new and unique experience in the world of distance education.
+        It provides the best education services for students from the primary to secondary levels.
+        Through the best teaching staff and the best existing educational technologies.</p>
+    </div>
+    <div layout-align.sm="center end">
+      <img src="/assets/images/logo-01.jpg"height=150 width=200 alt="Logo">
+    </div>
+  </div>
+  </mat-grid-list >
+      

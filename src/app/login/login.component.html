@@ -1,0 +1,40 @@
+<mat-toolbar color="primary">
+    Login
+  <span class="flex-spacer"></span>
+  <button mat-button mat-dialog-close>&times;</button>
+</mat-toolbar>
+
+<form novalidate [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  <!--novalidate is mean angular response to validate not html-->
+  <mat-dialog-content>
+    <table>
+     <tr>
+      <td>
+        <mat-form-field>
+          <mat-label>Email User</mat-label>
+          <input formControlName="eMail" matInput placeholder="Email" type="email">
+          <mat-error>Email is Required</mat-error>
+        </mat-form-field>
+      </td>
+      <td>
+        <mat-form-field>
+          <mat-label>Password</mat-label>
+          <input formControlName="password" matInput placeholder="Password" type="password">
+          <mat-error>Password is Required</mat-error>
+        </mat-form-field>
+      </td>
+     </tr>
+      <tr>
+        <mat-checkbox name="remember">Remember Me</mat-checkbox>
+      </tr>
+    </table>    
+  </mat-dialog-content>
+
+  <mat-dialog-actions>
+    <span class="flex-spacer"></span>
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button type="submit" mat-button class="background-primary text-floral-white">Login</button>
+  </mat-dialog-actions>
+
+</form>
+

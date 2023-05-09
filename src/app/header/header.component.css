@@ -1,0 +1,11 @@
+.jumbotron {    
+    background: #9575CD ;
+    color:floralwhite;
+    min-height: 150px;
+    margin: 0px auto;
+    padding: 50px 30px;
+    display:flex;
+}
+.active{
+    background-color: #785cce;
+}
